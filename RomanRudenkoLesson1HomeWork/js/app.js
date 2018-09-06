@@ -39,7 +39,7 @@ function toFahrenheit() {
 
 function distanceCalc() {
     // Получаем данные из элементов формы
-    speedUnits = document.forms.distanceCalculator.elements.speedValue.value;
+    speedUnits = document.forms.distanceCalculator.elements.speedUnits.value;
     timeUnits = document.forms.distanceCalculator.elements.timeValue.value;
     V = document.forms.distanceCalculator.elements.speedValue.value;
     T = document.forms.distanceCalculator.elements.pacedTime.value;
